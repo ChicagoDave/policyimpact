@@ -1,0 +1,26 @@
+{
+  "name": "policyimpact",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "deploy:infra": "cd packages/infrastructure && cdk deploy",
+    "deploy:api": "cd packages/api && npm run deploy",
+    "deploy:web": "cd packages/web && npm run deploy"
+  },
+  "devDependencies": {
+    "turbo": "^1.12.4",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}

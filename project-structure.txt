@@ -1,0 +1,15 @@
+Project Folder Structure
+
+/packages/infrastructure/ - AWS CDK infrastructure code
+/packages/api/ - Lambda functions and API endpoints
+/packages/web/ - Next.js frontend application
+/packages/shared/ - Shared types and utilities
+
+Key features:
+
+Turborepo for monorepo management
+Shared TypeScript configuration
+Consistent ESLint rules
+Workspace-aware package management
+Shared types between frontend and backend
+Development scripts at root level
