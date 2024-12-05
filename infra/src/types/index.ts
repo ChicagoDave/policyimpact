@@ -1,7 +1,7 @@
 // infra/src/types/index.ts
-export * from './models';
 export * from './api';
 export * from './events';
+export * from './models';
 
 // Re-export commonly used types from AWS Lambda
 export type {

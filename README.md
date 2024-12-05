@@ -1,6 +1,6 @@
 # Policy Impact Platform
 
-A comprehensive platform for publishing policy articles with rigorous research verification and editorial review processes.
+A comprehensive platform for publishing policy articles with rigorous research verification and editorial review processes. Will be launched on https://policyimpact.us in 2025.
 
 ## Overview
 
