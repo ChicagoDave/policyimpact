@@ -1,0 +1,45 @@
+Represents the folder structure of this project.
+
+$folders = @(
+    # Root folders
+    "",
+    "client",
+    "infra",
+    "shared",
+
+    # Client structure
+    "client/src",
+    "client/src/app",
+    "client/src/components",
+    "client/src/components/articles",
+    "client/src/components/auth",
+    "client/src/components/common",
+    "client/src/components/editors",
+    "client/src/components/researchers",
+    "client/src/hooks",
+    "client/src/lib",
+    "client/src/services",
+    "client/src/types",
+    "client/public",
+
+    # Infrastructure structure
+    "infra/src",
+    "infra/src/functions",
+    "infra/src/functions/articles",
+    "infra/src/functions/auth",
+    "infra/src/functions/notifications",
+    "infra/src/functions/workflow",
+    "infra/src/lib",
+    "infra/src/lib/db",
+    "infra/src/lib/auth",
+    "infra/src/lib/validation",
+    "infra/src/types",
+    "infra/src/cdk",
+    "infra/src/cdk/bin",
+    "infra/src/cdk/lib",
+    "infra/src/cdk/test",
+
+    # Shared structure
+    "shared/src",
+    "shared/src/types"
+)
