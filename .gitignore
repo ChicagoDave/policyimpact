@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-# Dependencies
-node_modules/
-
-# Build outputs
-.next/
-out/
-build/
-dist/
-cdk.out/
-.cdk.staging/
-
-# Environment
-.env
-.env.*
-
-# TypeScript
-*.tsbuildinfo
-
-# IDE
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-.idea/
-
-# Logs
-*.log
-npm-debug.log*
-
-# AWS 
-.aws/
-=======
 # Logs
 logs
 *.log
@@ -160,4 +128,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
->>>>>>> b1b4c5017329cbcea611ef02801ff6aa94e24ea3
